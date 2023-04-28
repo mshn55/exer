@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container" >
+        <h1> Your Profile</h1>
+        <p> Here </p>
+        <form action="index.html" method="post" >
+        <label for="text"> Your name</label>
+        <input type="text"  id="text" tabindex="0" pattern="^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$" autofocus="" placeholder="please enter your name">
+        <br>
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" placeholder="please write an email address">
+        <br>
+        <label for="password">Pasword</label>
+        <input type="password" name="" id="password" placeholder="enter your password">
+        <br>
+        <label for="phone"> Phone</label>
+        <input type="tel" id="phone" placeholder="+41771234567">
+        <br>
+        <label for="color"> Color</label>
+        <input type="color" id="color">
+        <br>
+        <label for="date"> Date</label>
+        <input type="date" id="date">
+        <br>
+        
+        <fieldset id="company-info">
+            <legend>Company</legend>
+            <label for="fname">Company name:</label>    
+            <input type="text" id="fname" name="fname" required>    
+          </fieldset>
+
+       <label for="select"> Your Permission Type</label>
+        <select name="permission" id="select">
+            <option id="a" value="A"> A permission </option>
+            <option id="b" value="B"> B permission </option>
+            <option id="c" value="C"> C permission </option>
+            <option id="d" value="D"> D permission </option>
+        </select>
+        <br>
+        <br>
+            <input type="range" >
+            <br>
+            
+            <label for="picture"> Your Picture</label>
+            <input type="image" id="picture">
+            <br>
+
+        <label for="textarea"> Your questions</label>
+        <br>
+        <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+          <br>
+        <button type="submit" id="submit" > Submit </button>
+
+        <input type="button" id="save" value="Save">
+       
+        <input type="reset" id="reset">
+    
+        </form>
+    
+        <a href="#subtitle2"> more info</a>
+
+        <h2 id="subtitle2">This is more info</h2>
+        <input type="search" value="Search" placeholder="search">
+        </div>
+     </body>
+    </html>
